@@ -2,19 +2,30 @@
 <html lang="en">
 <head>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Profile</title>
 </head>
 <body>
     <!--navigation bar with logo-->
-    <nav>
-        <div class="menu">
-            <button>munu</button>
-            <p>menu</p>
+    <nav class="nav">
+
+        <div class="container" style="border: 1px solid; display: flexbox;">
+            <div class="logo" style="border: 1px solid; float: right; width: 80%;">tobi</div>
+            <div class="menu" style="border: 1px solid; width: 20%; height: 250px; position: absolute;">
+                <p><button class="m-bnt" onclick="hns()"><span class="material-symbols-outlined">menu</span></button><span class="lag">menu</span></p>
+                <ul>
+                    <button>dark/sun</button>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="logo"></div>
     </nav>
 
 </body>
